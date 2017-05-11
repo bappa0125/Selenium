@@ -13,7 +13,7 @@ public class HomePageLib {
 	
 	public void navigateToApplicationURL()
 	{
-		Driver.driver.get("http://localhost:8080/petclinic/");
+		Driver.driver.get("http://localhost:8038/petclinic/");
 		ReporterConfig.logger.log(LogStatus.PASS, "Opened the application in browser");
 	}
 	
